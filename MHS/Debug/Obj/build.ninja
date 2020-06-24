@@ -1,0 +1,27 @@
+#Generating source browse information for project MHS
+
+
+#Abbreviations
+cc = C$:\DEV\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\SourceIndexer.exe
+ll = C$:\DEV\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\PbdLink.exe
+bd = C$:\DEV\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build MHS.pbi : index MHS.xcl
+build MHS.pbd : link MHS.pbi
+build MHS.pbw : browsedata MHS.pbd
+
+

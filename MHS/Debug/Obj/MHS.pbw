@@ -1,0 +1,170 @@
+[
+  {
+    "ID": "c:MHS.c@340@macro@RCC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "C:\\Users\\PKNU\\Desktop\\IOT\\StudyARM\\MHS\\MHS.c"
+    },
+    "name": "RCC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:MHS.c@378@macro@RCC_AHBENABLE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_AHBENABLE",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "C:\\Users\\PKNU\\Desktop\\IOT\\StudyARM\\MHS\\MHS.c"
+    },
+    "name": "RCC_AHBENABLE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:MHS.c@450@macro@GPIOC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOC",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "C:\\Users\\PKNU\\Desktop\\IOT\\StudyARM\\MHS\\MHS.c"
+    },
+    "name": "GPIOC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:MHS.c@486@macro@GPIOC_MODER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOC_MODER",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\Users\\PKNU\\Desktop\\IOT\\StudyARM\\MHS\\MHS.c"
+    },
+    "name": "GPIOC_MODER",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:MHS.c@557@macro@GPIOC_OTYPER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOC_OTYPER",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "C:\\Users\\PKNU\\Desktop\\IOT\\StudyARM\\MHS\\MHS.c"
+    },
+    "name": "GPIOC_OTYPER",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:MHS.c@628@macro@GPIOC_OSPEEDR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOC_OSPEEDR",
+    "location": {
+      "column": "9",
+      "line": "25",
+      "path": "C:\\Users\\PKNU\\Desktop\\IOT\\StudyARM\\MHS\\MHS.c"
+    },
+    "name": "GPIOC_OSPEEDR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:MHS.c@699@macro@GPIOC_PUPDR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOC_PUPDR",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "C:\\Users\\PKNU\\Desktop\\IOT\\StudyARM\\MHS\\MHS.c"
+    },
+    "name": "GPIOC_PUPDR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:MHS.c@770@macro@GPIOC_IDR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOC_IDR",
+    "location": {
+      "column": "9",
+      "line": "27",
+      "path": "C:\\Users\\PKNU\\Desktop\\IOT\\StudyARM\\MHS\\MHS.c"
+    },
+    "name": "GPIOC_IDR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:MHS.c@841@macro@GPIOC_ODR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOC_ODR",
+    "location": {
+      "column": "9",
+      "line": "28",
+      "path": "C:\\Users\\PKNU\\Desktop\\IOT\\StudyARM\\MHS\\MHS.c"
+    },
+    "name": "GPIOC_ODR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:MHS.c@F@Delay",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Delay(const unsigned int)",
+    "location": {
+      "column": "13",
+      "line": "31",
+      "path": "C:\\Users\\PKNU\\Desktop\\IOT\\StudyARM\\MHS\\MHS.c"
+    },
+    "name": "Delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:MHS.c@960@F@Delay@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "16",
+      "line": "33",
+      "path": "C:\\Users\\PKNU\\Desktop\\IOT\\StudyARM\\MHS\\MHS.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "37",
+      "path": "C:\\Users\\PKNU\\Desktop\\IOT\\StudyARM\\MHS\\MHS.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  }
+]
