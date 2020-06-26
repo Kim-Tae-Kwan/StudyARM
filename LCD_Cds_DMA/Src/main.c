@@ -69,6 +69,8 @@ void Cds()
 
 }
 
+
+
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -117,25 +119,16 @@ int main(void)
   
   while (1)
   {
-    Cds();
-    if(adcData<1000)
-    {
-      if(a==0)
-      {
-        HAL_GPIO_WritePin(GPIOC,GPIO_PIN_0,GPIO_PIN_SET);
-        a=1;
-        b=0;
-      }
-    }
-    else if(adcData>1000)
-    { 
-      if(b==0)
-      {
-        HAL_GPIO_WritePin(GPIOC,GPIO_PIN_0,GPIO_PIN_RESET);
-        a=0;
-        b=1;
-      }
-    }
+    
+     lcdClear();
+    lcdGotoXY(0,0);
+    lcdPrintData("ADC - DMA_Mode",14);
+    sprintf(str,"Cds : %d",adcData);
+    
+    lcdGotoXY(0,1);
+    lcdPrint(str);
+    HAL_Delay(500);
+    
     
     
     
